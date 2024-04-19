@@ -1,2 +1,0 @@
-' array is the collection of the of similar Type 
-collection of functions are called modules 
