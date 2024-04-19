@@ -11,8 +11,8 @@ var express = require("express");
 
 
 var app = express();
-app.get("/user",(req, res)=>{
-   connection.query('SELECT * FROM userdetails',(err,result)=>{
+app.get("/product",(req, res)=>{
+   connection.query('SELECT * FROM productdetails',(err,result)=>{
     if(!err) {
         res.send(result);
     }
