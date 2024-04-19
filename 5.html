@@ -1,0 +1,14 @@
+<!-- call backs in JS -->
+<!-- //call back is the function which is passed in inner function, then inner function Is called callbacks function  -->
+
+<script>
+    function f1 (cb) {
+        console.log( typeof cb);
+    };
+    f1(()=>{}) //function callbacks function (Used Arrow Function)
+
+    function f2 (ab) {
+        console.log( typeof ab);
+    };
+    f2(function(){}) // (used anomus) acting as  callbacks function
+</script>
