@@ -5,3 +5,4 @@ var server = http.createServer((req, res)=>{
 res.write("Hello, world!");
 res.end();
 }) //request is used to capture incoming data & Response Sending the data from Node of Frontend Server
+server.listen(1999); 
