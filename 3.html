@@ -1,4 +1,33 @@
-//object 
+<!-- //object  multipele type of unsimilar data is store in object  -->
 <script>
-    
+    var product = {
+        name: "Product",
+        price: 100,
+        path:"https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/d/i/2/xl-723-3-5-6-7-ftx-original-imagtwpbhmnq83pq.jpeg?q=70"
+    }; // curly barcekt is used scope & object 
+    console.log(product);
+    document.write(`
+    <div>
+        <img src = "${product.path}">
+        <h2>${product.price}</h2>
+        <p>${product.name}</p>
+        <input type = "button" value = "Add To Cart">
+    </div>
+    `)
 </script>
+<style>
+    div{
+        border: 1px solid black;
+        width: 150px;
+        margin: auto;
+    }
+    div img {
+        width: 100%;
+        margin-bottom: 1px;
+        border-bottom: 2px solid black;
+    }
+    div input{
+        background-color: blue;
+        color: aliceblue;
+    }
+</style>
