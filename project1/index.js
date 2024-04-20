@@ -12,6 +12,7 @@ var express = require("express");
 
 
 var app = express();
+app.use(cors());
 app.get("/product",(req, res)=>{
    connection.query('SELECT * FROM productdetails',(err,result)=>{
     if(!err) {
