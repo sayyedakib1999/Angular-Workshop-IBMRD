@@ -13,6 +13,7 @@ export class HomeComponent {
   }
   ngOnInit():void {
     console.log('Fetch node js data from');
+    this.x1.apiFromnodejs().subscribe();
   }
 
 }

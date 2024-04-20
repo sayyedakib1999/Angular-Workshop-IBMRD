@@ -9,6 +9,7 @@ export class FetchdataService {
   constructor(private http:HttpClient) { }
   apiFromnodejs(){
     console.log('Fun Called');
+    return this.http.get('http://localhost:9000/productdetails');
     
-  }
+  };
 }
