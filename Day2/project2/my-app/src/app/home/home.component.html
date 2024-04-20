@@ -1,8 +1,15 @@
+
 <h1 align="center" >Data From Node & My SQL</h1>
+
 <table width = "500" align="center" border="1">
     <tr>
-        <th>Id</th>
+        <th>pid</th>
         <th>Name</th>
-        <th>Age</th>
+        <th>price</th>
+    </tr>
+    <tr *ngFor="let values of record">
+        <td>{{values.pid}}</td>
+        <td>{{values.name}}</td>
+        <td>{{values.price}}</td>
     </tr>
 </table>
