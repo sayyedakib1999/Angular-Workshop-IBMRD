@@ -1,0 +1,14 @@
+#form{
+    margin: 50px 50px;
+    margin-left: 40%;
+    
+}
+#form input{
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+#form #btn{
+    background-color: blue;
+    text-align: center;
+}
