@@ -1,0 +1,13 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+div a{
+    font-family: "Poppins", sans-serif;
+    margin: 20px ;
+    padding: 10px ;
+    text-decoration: none;
+    color: black;
+}
